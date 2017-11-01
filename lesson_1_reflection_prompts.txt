@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	by differenciating the lines that was added and/or removed and by specifying 
+	the lines where the changes were made it became easy to detect if there were changes
+	or bugs in the code
+    
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    it can help in keeping track of the changes made in the entire project and
+	fix any unnoticed errorst that might occur by comparring the cheanges made 
+	between two versions
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros
+	keep track of the specific changes by choosing when to save 
+	
+	cons
+	might save to early which creates too many commits or might save to late and 
+	make the commits huge and harder to specify where the changes are made
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    so the changes in each files can be save in their respective files without the
+	need to save each file separately
+
+How can you use the commands git log and git diff to view the history of files?
+	
+    git log retrives all the commits made in the projects with specific ids and git diff
+	presents the differece between two commits having separate ids
+
+How might using version control make you more confident to make changes that
+could break something?
+
+   since it git lets commenting on the commits it removes the hectic work of 
+   finding the error in the whole project where it can be found easily by
+   comparing two commit ids and confidently make changes to a specific commit 
+   without threathening the integrity of the whole project.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+  with git and using the version control behavior of git i will use it to colloborate
+  on difcerent projects with different people
